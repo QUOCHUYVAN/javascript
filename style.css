@@ -1,0 +1,86 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header__h1, 
+.header__h2{
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+}
+#countLabel{
+  display: block;
+  text-align: center;
+  margin-bottom: 8px;
+  font-size: 6em;
+  font-family: Helvetica;
+}
+.btn {
+  text-align: center;
+}
+.func-btn{
+  font-family: Helvetica;
+  padding: 10px;
+  background-color: rgb(224, 122, 95);
+  border: 1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+.func-btn:hover{
+  background-color: rgba(224, 122, 95, 85%);
+}
+.separate{
+  height: 1.5px;
+  margin-top: 14px;
+  background-color: black;
+}
+
+.ex2{
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#submitBtn{
+  margin-top: 5px;
+  background-color: coral;
+  padding: 2px;
+  border-radius: 4px;
+  border: 1px solid;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#submitBtn:hover{
+  opacity: 0.8;
+}
+#subResult, 
+#paymentResult{
+  margin-top: 10px;
+  font-family: helvetica;
+}
+
+.ex3{
+  text-align: center;
+}
+#userNameBox{
+  margin-top: 14px;
+  padding: 4px;
+  font-family: Helvetica;
+  font-size: 1em;
+}
+#secondSubmitBtn{
+  font-size: inherit;
+  padding: 4px;
+  background-color: burlywood;
+  border: 1px solid ;
+  border-radius: 4px;
+  cursor: pointer;
+}
